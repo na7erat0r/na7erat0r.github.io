@@ -15,20 +15,35 @@ button:hover {
 
 .header {
   display: flex;
-  align-items: center;       /* vertically centers the items */
-  gap: 20px;                 /* space between heading and buttons */
+  align-items: center;      
+  gap: 20px;              
 }
 
+.header h1 {
+  min-width: 250px;  
+}
+
+
 .header .buttons a {
-  margin: 0;                 /* remove extra margin from buttons inside flex */
+  margin: 0;                 
 }
 
 p {
-  margin: 2px 0; /* top/bottom margin 2px, left/right 0 */
-  line-height: 1.2; /* optional: makes text slightly tighter vertically */
+  margin: 2px 0; 
+  line-height: 1.2; 
 }
 
 .page2-line {
-  margin: 10px 0;  /* more space between lines for page 2 */
-  line-height: 1.4; /* optional: slightly taller spacing */
+  margin: 10px 0;  
+  line-height: 1.4; 
+}
+
+.content-container {
+  max-width: 600px;   
+  margin: 0 auto;     
+  text-align: center; 
+}
+
+body {
+  padding-top: 10px; 
 }
